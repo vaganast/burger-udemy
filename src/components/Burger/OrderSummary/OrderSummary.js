@@ -23,7 +23,7 @@ const orderSummary = (props) => {
             <Button btnType="Danger" clicked={props.purchaseCancelled}>Cancel</Button>
             <Button btnType="Success" clicked={props.purchaseContinued}>Continue</Button>
         </Auxx>
-    )
+    );
 
 };
 
